@@ -63,6 +63,7 @@ DL_Assignment-01/
 ├── train.py                     # Main CLI training script
 ├── generate_eda_graphs.py       # Standalone EDA generator
 ├── requirements.txt             # Python dependencies
+├── AI_usage.md                  # Comprehensive AI usage disclosure (Handbook Sec 5)
 └── README.md                    # Project overview & reproduction instructions
 ```
 
@@ -103,7 +104,9 @@ python train.py --model mlp --epochs 10
 
 ## 🤖 Academic Integrity & AI Usage Disclosure (Section 5)
 
-All interactions with generative AI tools were conducted and verified exclusively by **Hoàng Trọng Huy Minh**:
+> 📄 **Standalone Disclosure Document:** Please refer to [`AI_usage.md`](AI_usage.md) for the complete, formal disclosure table satisfying all 9 mandatory fields per tool (representative prompts, student verification logs, and the signed Academic Integrity Declaration).
+
+All interactions with generative AI tools were conducted and verified exclusively by **Hoàng Trọng Huy Minh** (Student ID: **2452743**):
 
 | Tool & Model | Used By | Task / Stage | AI Contribution | Verification & Sources |
 | :--- | :--- | :--- | :--- | :--- |
