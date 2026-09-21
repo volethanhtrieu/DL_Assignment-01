@@ -122,8 +122,8 @@ def main():
         "--model",
         type=str,
         default="all",
-        choices=["linear", "mlp", "all"],
-        help="Model to train: 'linear', 'mlp', or 'all'",
+        choices=["linear", "mlp", "cnn", "all"],
+        help="Model to train: 'linear', 'mlp', 'cnn', or 'all'",
     )
     parser.add_argument("--epochs", type=int, default=10, help="Number of epochs per model")
     parser.add_argument("--batch_size", type=int, default=64, help="DataLoader batch size")
@@ -148,7 +148,7 @@ def main():
         augment_train=False,
     )
 
-    models_to_train = ["linear", "mlp"] if args.model == "all" else [args.model]
+    models_to_train = ["linear", "mlp", "cnn"] if args.model == "all" else [args.model]
     summary_results = []
 
     for m_name in models_to_train:

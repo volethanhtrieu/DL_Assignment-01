@@ -32,7 +32,8 @@ All models trained for 10 epochs using AdamW ($\text{lr}=10^{-3}$, $\text{weight
 | Model Architecture | Parameters | Test Accuracy (%) | Test Macro-F1 (%) | Train Time | Inference Latency (Batch 64) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Linear Classifier** (Softmax Regression) | 7,850 | 84.49% | 84.37% | ~17.5s | 0.28 ms |
-| **Multilayer Perceptron (MLP)** (256-128, ReLU, BN, Dropout 0.2) | 235,146 | **88.86%** | **88.83%** | ~23.1s | 0.54 ms |
+| **Multilayer Perceptron (MLP)** (256-128, ReLU, BN, Dropout 0.2) | 235,146 | 88.86% | 88.83% | ~23.1s | 0.54 ms |
+| **Convolutional Neural Network (CNN)** (Custom 3-Stage ConvNet) | 94,186 | **90.26%** | **90.26%** | ~210.7s | 0.54 ms |
 
 ---
 
@@ -42,7 +43,8 @@ All models trained for 10 epochs using AdamW ($\text{lr}=10^{-3}$, $\text{weight
 DL_Assignment-01/
 ├── checkpoints/                 # Saved model weights
 │   ├── best_linear.pth          # Best Linear model checkpoint (Val Macro-F1 = 84.37%)
-│   └── best_mlp.pth             # Best MLP model checkpoint (Val Macro-F1 = 88.83%)
+│   ├── best_mlp.pth             # Best MLP model checkpoint (Val Macro-F1 = 88.83%)
+│   └── best_cnn.pth             # Best CNN model checkpoint (Val Macro-F1 = 90.93%)
 ├── docs/                        # Project documentation & reports
 │   └── Report_Assignment_01.pdf # Full Milestone 1 PDF Report
 ├── eda_figures/                 # 5 Exploratory Data Analysis graphs
