@@ -1,6 +1,6 @@
 
 
-Dựa theo yêu cầu tối thiểu của M1 Draft trong handbook, dưới đây là kế hoạch từng bước cụ thể để nhóm bạn hoàn thiện đúng hạn:
+Dựa theo yêu cầu tối thiểu của M1 Draft trong handbook, dưới đây là kế hoạch từng bước cụ thể:
 **Bước 1: Chuẩn bị Dữ liệu và Phân tích Khám phá (EDA - Khối lượng: ~2-3 ngày)**
 **Tải dữ liệu:** Tải bộ dữ liệu **Fashion-MNIST** làm bộ dữ liệu chính để báo cáo (có thể tải thêm MNIST chỉ để test code/debug nếu muốn).
 
