@@ -8,9 +8,9 @@
 
 | Member Name | Student ID | Assignment 01 Contribution (%) | Role & Responsibilities |
 | :--- | :---: | :---: | :--- |
-| **Hoàng Trọng Huy Minh** | **2452743** | **100% (Sole Contributor)** | **End-to-End Implementation:** Problem formulation, EDA (5 figures), data pipeline & stratified DataLoader, Linear and MLP model architectures, training engine with early stopping, evaluation metrics, LaTeX report, and GitHub Pages web page. |
-| Võ Lê Thành Triệu | 2453297 | 0% | No contribution to Assignment 1. |
-| Nguyễn Huỳnh Nam Quốc | 2453089 | 0% | No contribution to Assignment 1. |
+| **Hoàng Trọng Huy Minh** | **2452743** | **100%** | **End-to-End Implementation:** Problem formulation, EDA (5 figures), data pipeline & stratified DataLoader, Linear and MLP model architectures, training engine with early stopping, evaluation metrics, LaTeX report, and GitHub Pages web page. |
+| Võ Lê Thành Triệu | 2453297 | 0% | Assignment 2. |
+| Nguyễn Huỳnh Nam Quốc | 2453089 | 0% | Assignment 3. |
 
 > **Academic Honor Declaration:** I, **Hoàng Trọng Huy Minh** (Student ID: 2452743), declare that I am the sole author and contributor for Assignment 1. All reported numbers, model checkpoints, and experimental observations reflect genuine, verified training runs conducted on my local hardware.
 
