@@ -27,7 +27,7 @@
 
 ## 📊 Summary of M1 Quantitative Results
 
-All models trained for 10 epochs using AdamW ($\text{lr}=10^{-3}$, $\text{weight\_decay}=10^{-4}$), batch size 64, CosineAnnealingLR scheduler, and Early Stopping with patience 4 on validation macro-F1:
+All models trained for 10 epochs using AdamW ($\text{lr}=10^{-3}$, `weight_decay` $=10^{-4}$),, batch size 64, CosineAnnealingLR scheduler, and Early Stopping with patience 4 on validation macro-F1:
 
 | Model Architecture | Parameters | Test Accuracy (%) | Test Macro-F1 (%) | Train Time | Inference Latency (Batch 64) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
