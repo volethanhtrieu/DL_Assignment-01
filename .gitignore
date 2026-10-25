@@ -1,6 +1,12 @@
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
 .ipynb_checkpoints
 data/FashionMNIST/
 *.log
+*.aux
+*.out
+*.toc
+.venv/
+handbook-ene-v2.pdf
+push_to_git.py

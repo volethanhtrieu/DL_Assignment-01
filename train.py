@@ -117,13 +117,13 @@ def train_single_model(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Train M1 Models on Fashion-MNIST")
+    parser = argparse.ArgumentParser(description="Train M2 Final Models on Fashion-MNIST")
     parser.add_argument(
         "--model",
         type=str,
         default="all",
-        choices=["linear", "mlp", "cnn", "all"],
-        help="Model to train: 'linear', 'mlp', 'cnn', or 'all'",
+        choices=["linear", "mlp", "cnn", "lstm", "gru", "vit", "all"],
+        help="Model to train: 'linear', 'mlp', 'cnn', 'lstm', 'gru', 'vit', or 'all'",
     )
     parser.add_argument("--epochs", type=int, default=10, help="Number of epochs per model")
     parser.add_argument("--batch_size", type=int, default=64, help="DataLoader batch size")
@@ -148,7 +148,7 @@ def main():
         augment_train=False,
     )
 
-    models_to_train = ["linear", "mlp", "cnn"] if args.model == "all" else [args.model]
+    models_to_train = ["linear", "mlp", "cnn", "lstm", "vit"] if args.model == "all" else [args.model]
     summary_results = []
 
     for m_name in models_to_train:
@@ -166,7 +166,7 @@ def main():
 
     # Print Comparative Summary Table for Report
     print("\n" + "=" * 98)
-    print(f"{'M1 CHECKPOINT COMPARATIVE BENCHMARK SUMMARY TABLE':^98}")
+    print(f"{'M2 FINAL: 5-MODEL COMPARATIVE BENCHMARK SUMMARY TABLE':^98}")
     print("=" * 98)
     print(f"{'Model Architecture':<20} | {'Params':^10} | {'Test Loss':^10} | {'Test Acc':^10} | {'Test F1':^10} | {'Train (s)':^9} | {'Infer (s)':^9} | {'Latency':^11}")
     print("-" * 98)
