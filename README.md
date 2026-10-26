@@ -2,6 +2,8 @@
 ## Assignment 01: Foundations of Deep Learning Pipelines and Architectures
 ### Comprehensive Final Submission (Milestone 1 & Milestone 2) — Group Goat
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/volethanhtrieu/DL_Assignment-01/blob/main/assignment_01_reproducibility.ipynb)
+
 ---
 
 ## 👤 Project Authorship & Individual Contribution
@@ -18,9 +20,9 @@
 
 ## 🔗 Project Links & Official Deliverables
 
+- **Interactive Google Colab Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/volethanhtrieu/DL_Assignment-01/blob/main/assignment_01_reproducibility.ipynb) ([`assignment_01_reproducibility.ipynb`](assignment_01_reproducibility.ipynb))
 - **Live GitHub Pages Webpage:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-01/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-01/)
 - **Main Project Portal:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/)
-- **Interactive Reproducibility Notebook:** [`assignment_01_reproducibility.ipynb`](assignment_01_reproducibility.ipynb)
 - **Cumulative Final Technical Report (PDF):** [`Goat_A1_Report.pdf`](Goat_A1_Report.pdf) / [`docs/Report_Assignment_01.pdf`](docs/Report_Assignment_01.pdf)
 - **Official Presentation Slides (PDF):** [`docs/Slides_Assignment_01.pdf`](docs/Slides_Assignment_01.pdf)
 - **Presentation Defense Script (Timestamped):** [`docs/Presentation_Script.md`](docs/Presentation_Script.md)
