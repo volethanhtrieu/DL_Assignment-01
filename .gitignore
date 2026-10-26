@@ -9,6 +9,9 @@ data/FashionMNIST/
 *.toc
 .venv/
 handbook-ene-v2.pdf
+push_*.py
 push_to_git.py
 assignment-01/
+*.nav
+*.snm
 

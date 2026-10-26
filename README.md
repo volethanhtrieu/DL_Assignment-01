@@ -25,6 +25,7 @@
 - **Main Project Portal:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/)
 - **Cumulative Final Technical Report (PDF):** [`Goat_A1_Report.pdf`](Goat_A1_Report.pdf) / [`docs/Report_Assignment_01.pdf`](docs/Report_Assignment_01.pdf)
 - **Official Presentation Slides (PDF):** [`docs/Slides_Assignment_01.pdf`](docs/Slides_Assignment_01.pdf)
+- **YouTube Defense Presentation Video:** [https://youtu.be/3SfjqpiObXA](https://youtu.be/3SfjqpiObXA)
 - **Presentation Defense Script (Timestamped):** [`docs/Presentation_Script.md`](docs/Presentation_Script.md)
 - **Live Demo Audit Walkthrough:** [`docs/Demo_Audit_Walkthrough.md`](docs/Demo_Audit_Walkthrough.md)
 - **Source Code Repository:** [https://github.com/volethanhtrieu/DL_Assignment-01](https://github.com/volethanhtrieu/DL_Assignment-01)
