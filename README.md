@@ -21,6 +21,8 @@
 - **Live GitHub Pages Webpage:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-01/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-01/)
 - **Main Project Portal:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/)
 - **Cumulative Final Technical Report (PDF):** [`Goat_A1_Report.pdf`](Goat_A1_Report.pdf) / [`docs/Report_Assignment_01.pdf`](docs/Report_Assignment_01.pdf)
+- **Official Presentation Slides (PDF):** [`docs/Slides_Assignment_01.pdf`](docs/Slides_Assignment_01.pdf)
+- **Presentation Defense Script (Timestamped):** [`docs/Presentation_Script.md`](docs/Presentation_Script.md)
 - **Source Code Repository:** [https://github.com/volethanhtrieu/DL_Assignment-01](https://github.com/volethanhtrieu/DL_Assignment-01)
 - **AI Usage Disclosure (9 Mandatory Fields):** [`AI_usage.md`](AI_usage.md)
 
@@ -56,9 +58,12 @@ DL_Assignment-01/
 │   ├── best_cnn.pth             # Best Custom CNN model weights (90.26% Acc)
 │   ├── best_lstm.pth            # Best Bi-LSTM model weights (89.65% Acc)
 │   └── best_vit.pth             # Best Vision Transformer model weights (88.07% Acc)
-├── docs/                        # PDF reports and documentation
+├── docs/                        # PDF reports, slides, and presentation guides
 │   ├── Goat_A1_Report.pdf       # Submission-named 20-page technical report
-│   └── Report_Assignment_01.pdf # Course handbook standardized report
+│   ├── Report_Assignment_01.pdf # Course handbook standardized report
+│   ├── Slides_Assignment_01.pdf # 18-slide oral defense presentation (PDF)
+│   ├── Goat_A1_Slides.pdf       # Beamer compiled slide deck
+│   └── Presentation_Script.md   # Word-for-word timestamped video defense script
 ├── eda_figures/                 # 5 Exploratory Data Analysis figures
 │   ├── fig1_representative_samples.png
 │   ├── fig2_class_distribution.png
