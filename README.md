@@ -20,9 +20,11 @@
 
 - **Live GitHub Pages Webpage:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-01/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-01/)
 - **Main Project Portal:** [https://volethanhtrieu.github.io/Deep-Learning-project-main-page/](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/)
+- **Interactive Reproducibility Notebook:** [`assignment_01_reproducibility.ipynb`](assignment_01_reproducibility.ipynb)
 - **Cumulative Final Technical Report (PDF):** [`Goat_A1_Report.pdf`](Goat_A1_Report.pdf) / [`docs/Report_Assignment_01.pdf`](docs/Report_Assignment_01.pdf)
 - **Official Presentation Slides (PDF):** [`docs/Slides_Assignment_01.pdf`](docs/Slides_Assignment_01.pdf)
 - **Presentation Defense Script (Timestamped):** [`docs/Presentation_Script.md`](docs/Presentation_Script.md)
+- **Live Demo Audit Walkthrough:** [`docs/Demo_Audit_Walkthrough.md`](docs/Demo_Audit_Walkthrough.md)
 - **Source Code Repository:** [https://github.com/volethanhtrieu/DL_Assignment-01](https://github.com/volethanhtrieu/DL_Assignment-01)
 - **AI Usage Disclosure (9 Mandatory Fields):** [`AI_usage.md`](AI_usage.md)
 
@@ -63,7 +65,8 @@ DL_Assignment-01/
 │   ├── Report_Assignment_01.pdf # Course handbook standardized report
 │   ├── Slides_Assignment_01.pdf # 18-slide oral defense presentation (PDF)
 │   ├── Goat_A1_Slides.pdf       # Beamer compiled slide deck
-│   └── Presentation_Script.md   # Word-for-word timestamped video defense script
+│   ├── Presentation_Script.md   # Word-for-word timestamped video defense script
+│   └── Demo_Audit_Walkthrough.md# Step-by-step live demo script for audit_sanity.py
 ├── eda_figures/                 # 5 Exploratory Data Analysis figures
 │   ├── fig1_representative_samples.png
 │   ├── fig2_class_distribution.png
@@ -73,6 +76,7 @@ DL_Assignment-01/
 ├── outputs/                     # Generated experimental artifacts
 │   ├── checkpoints/             # Per-epoch training history (JSON & CSV)
 │   └── figures/                 # Learning curves, confusion matrices, prediction examples
+├── assignment_01_reproducibility.ipynb # End-to-end interactive reproduction walkthrough
 ├── data_setup.py                # Stratified 50k/10k/10k DataLoader (seed=42, zero leakage)
 ├── models.py                    # PyTorch implementations of all 5 model architectures
 ├── engine.py                    # Train, validate, fit with EarlyStopping & history tracking
