@@ -88,7 +88,10 @@ DL_Assignment-01/
 │   ├── Slides_Assignment_01.pdf # 18-slide oral defense presentation (PDF)
 │   ├── Goat_A1_Slides.pdf       # Beamer compiled slide deck
 │   ├── Presentation_Script.md   # Word-for-word timestamped video defense script
-│   └── Demo_Audit_Walkthrough.md# Step-by-step live demo script for audit_sanity.py
+│   ├── Demo_Audit_Walkthrough.md# Step-by-step live demo script for audit_sanity.py
+│   └── latex/                   # XeLaTeX source code files
+│       ├── Goat_A1_Report.tex   # XeLaTeX source of the 20-page technical report
+│       └── Goat_A1_Slides.tex   # XeLaTeX Beamer source of the 18-slide presentation
 ├── eda_figures/                 # 5 Exploratory Data Analysis figures
 │   ├── fig1_representative_samples.png
 │   ├── fig2_class_distribution.png
@@ -98,6 +101,7 @@ DL_Assignment-01/
 ├── outputs/                     # Generated experimental artifacts
 │   ├── checkpoints/             # Per-epoch training history (JSON & CSV)
 │   └── figures/                 # Learning curves, confusion matrices, prediction examples
+├── runs/                        # TensorBoard event telemetry logs (all 5 models)
 ├── assignment_01_reproducibility.ipynb # End-to-end interactive reproduction walkthrough
 ├── data_setup.py                # Stratified 50k/10k/10k DataLoader (seed=42, zero leakage)
 ├── models.py                    # PyTorch implementations of all 5 model architectures
@@ -105,11 +109,12 @@ DL_Assignment-01/
 ├── metrics.py                   # Accuracy, Macro-F1, Confusion Matrix, parameter counting
 ├── train.py                     # Unified CLI training script for all 5 models
 ├── audit_sanity.py              # Automated 4-part sanity and integrity audit script
+├── export_to_tensorboard.py     # Exports metrics to TensorBoard in ./runs/
 ├── generate_eda_graphs.py       # Standalone EDA visualization generator
 ├── requirements.txt             # Frozen dependencies
 ├── AI_usage.md                  # Comprehensive AI usage disclosure (Handbook Sec 5)
-├── Goat_A1_Report.tex           # LaTeX source of the 20-page academic report
-├── report.pdf                   # Synchronized PDF report
+├── Goat_A1_Report.pdf           # Synchronized submission PDF report
+├── Goat_A1_Slides.pdf           # Synchronized submission presentation deck
 └── README.md                    # Project overview & reproduction instructions
 ```
 
