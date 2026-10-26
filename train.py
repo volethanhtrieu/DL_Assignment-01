@@ -131,6 +131,7 @@ def main():
     parser.add_argument("--num_workers", type=int, default=2, help="DataLoader workers")
     parser.add_argument("--data_dir", type=str, default="./data", help="Data directory")
     parser.add_argument("--output_dir", type=str, default="./outputs", help="Output directory")
+    parser.add_argument("--tensorboard", action="store_true", default=True, help="Export logs to TensorBoard in ./runs/")
     args = parser.parse_args()
 
     # Hardware Device Detection
@@ -183,6 +184,11 @@ def main():
         )
     print("=" * 98)
     print(f"All outputs, checkpoints, and figures saved to: {args.output_dir}")
+
+    if args.tensorboard:
+        from export_to_tensorboard import export_histories_to_tensorboard
+        print("\nExporting metrics to TensorBoard...")
+        export_histories_to_tensorboard(log_dir="./runs", history_dir=os.path.join(args.output_dir, "checkpoints"))
 
 
 if __name__ == "__main__":

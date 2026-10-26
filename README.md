@@ -52,6 +52,25 @@ All five models were trained from scratch under identical hardware (NVIDIA GeFor
 
 ---
 
+## 📈 Experiment Observability & Bias-Variance Diagnostics with TensorBoard
+
+Our training pipeline integrates **TensorBoard** (`torch.utils.tensorboard`) to track real-time training dynamics and quantitatively diagnose **Bias vs. Variance**:
+
+### Launch the Interactive TensorBoard Dashboard:
+```bash
+tensorboard --logdir=runs --port=6006
+```
+Open your browser at: `http://localhost:6006`
+
+### Key Diagnostics Monitored in TensorBoard:
+- **`Diagnosis/Generalization_Gap (Variance)`:** Defined as $\Delta = \mathcal{L}_{\text{val}} - \mathcal{L}_{\text{train}}$. A widening gap indicates high variance (overfitting); our dropout and weight decay keep $\Delta < 0.05$.
+- **`Diagnosis/Train_Loss_Floor (Bias)`:** Reflects asymptotic training loss. High floor indicates high bias (underfitting), as observed in the Linear classifier ($0.42$), whereas Custom CNN achieves low bias ($0.23$).
+- **`Loss/Train` & `Loss/Val`:** Loss convergence curves across all 5 architectures.
+- **`Accuracy/` & `Macro_F1/`:** Epoch-by-epoch performance metrics on training and validation partitions.
+- **`Optimization/Learning_Rate`:** Cosine Annealing decay schedule from $10^{-3}$ down to $10^{-6}$.
+
+---
+
 ## 📁 Repository Structure
 
 ```text

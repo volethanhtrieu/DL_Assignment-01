@@ -10,4 +10,5 @@ data/FashionMNIST/
 .venv/
 handbook-ene-v2.pdf
 push_to_git.py
+assignment-01/
 
