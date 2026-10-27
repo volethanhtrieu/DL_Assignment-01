@@ -29,7 +29,7 @@
 - **Presentation Defense Script (Timestamped):** [`docs/Presentation_Script.md`](docs/Presentation_Script.md)
 - **Live Demo Audit Walkthrough:** [`docs/Demo_Audit_Walkthrough.md`](docs/Demo_Audit_Walkthrough.md)
 - **Source Code Repository:** [https://github.com/volethanhtrieu/DL_Assignment-01](https://github.com/volethanhtrieu/DL_Assignment-01)
-- **AI Usage Disclosure (9 Mandatory Fields):** [`AI_usage.md`](AI_usage.md)
+- **AI Usage Disclosure (9 Mandatory Fields):** [`AI_USAGE.md`](AI_USAGE.md)
 
 ---
 
@@ -112,7 +112,7 @@ DL_Assignment-01/
 ├── export_to_tensorboard.py     # Exports metrics to TensorBoard in ./runs/
 ├── generate_eda_graphs.py       # Standalone EDA visualization generator
 ├── requirements.txt             # Frozen dependencies
-├── AI_usage.md                  # Comprehensive AI usage disclosure (Handbook Sec 5)
+├── AI_USAGE.md                  # Comprehensive AI usage disclosure (Handbook Sec 5)
 ├── Goat_A1_Report.pdf           # Synchronized submission PDF report
 ├── Goat_A1_Slides.pdf           # Synchronized submission presentation deck
 └── README.md                    # Project overview & reproduction instructions

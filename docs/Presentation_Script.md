@@ -88,7 +88,7 @@
   > 3. Deterministic evaluation behavior under `model.eval()`;
   > 4. Strict checkpoint state dictionary loading.
   >
-  > All generative AI tool interactions are fully logged with all 9 mandatory fields in `AI_usage.md` and Section 7 of the report.
+  > All generative AI tool interactions are fully logged with all 9 mandatory fields in `AI_USAGE.md` and Section 7 of the report.
   >
   > On Slide 17, all deliverables are live: our code repository, serialized checkpoints, interactive GitHub Pages website, presentation slides, and our 20-page technical report.
   >
